@@ -1,11 +1,12 @@
 using Microsoft.EntityFrameworkCore;
+using ProjectMVCExample.Models;
 
-namespace YourNamespace.Data
+namespace ProjectMVCExample.Data
 {
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<Book> MyBook { get; set; }
+        public DbSet<Book> Books { get; set; }
     }
 }
