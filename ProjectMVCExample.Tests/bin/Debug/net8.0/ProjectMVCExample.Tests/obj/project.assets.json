@@ -2061,7 +2061,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
-          "Microsoft.Extensions.Configuration.Json": "7.0.5",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0",
           "Newtonsoft.Json": "13.0.3",
           "Selenium.WebDriver": "4.29.0",
           "Selenium.WebDriver.ChromeDriver": "133.0.6943.12600",
@@ -5763,17 +5763,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "ProjectMVCExample depends on Microsoft.Extensions.Configuration.Json (>= 7.0.5) but Microsoft.Extensions.Configuration.Json 7.0.5 was not found. An approximate best match of Microsoft.Extensions.Configuration.Json 8.0.0 was resolved.",
-      "libraryId": "Microsoft.Extensions.Configuration.Json",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

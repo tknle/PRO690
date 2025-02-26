@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EBUKJCx7Rq8=",
+  "dgSpecHash": "tom6JdDa2RE=",
   "success": true,
   "projectFilePath": "D:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-2\\PRO690\\ProjectMVCExample.Tests\\ProjectMVCExample.Tests.csproj",
   "expectedPackageFiles": [
@@ -110,16 +110,5 @@
     "C:\\Users\\itsmi\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512",
     "C:\\Users\\itsmi\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "ProjectMVCExample depends on Microsoft.Extensions.Configuration.Json (>= 7.0.5) but Microsoft.Extensions.Configuration.Json 7.0.5 was not found. An approximate best match of Microsoft.Extensions.Configuration.Json 8.0.0 was resolved.",
-      "libraryId": "Microsoft.Extensions.Configuration.Json",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
