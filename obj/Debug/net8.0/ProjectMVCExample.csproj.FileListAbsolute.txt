@@ -145,3 +145,15 @@ D:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\obj\Debug\net8.0\refint\Proj
 D:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\obj\Debug\net8.0\ProjectMVCExample.pdb
 D:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\obj\Debug\net8.0\ProjectMVCExample.genruntimeconfig.cache
 D:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\obj\Debug\net8.0\ref\ProjectMVCExample.dll
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\bin\Debug\net8.0\appsettings.Development.json
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\bin\Debug\net8.0\appsettings.json
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\bin\Debug\net8.0\MvcTestingAppManifest.json
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\bin\Debug\net8.0\ProjectMVCExample.deps.json
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\bin\Debug\net8.0\ProjectMVCExample.runtimeconfig.json
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\bin\Debug\net8.0\ProjectMVCExample.staticwebassets.runtime.json
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\bin\Debug\net8.0\ProjectMVCExample.Tests.deps.json
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\bin\Debug\net8.0\ProjectMVCExample.Tests.runtimeconfig.json
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\bin\Debug\net8.0\ProjectMVCExample.Tests\obj\project.assets.json
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\bin\Debug\net8.0\ProjectMVCExample.Tests\obj\ProjectMVCExample.Tests.csproj.nuget.dgspec.json
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\obj\Debug\net8.0\MvcTestingAppManifest.json
+d:\Seneca Winter 2025\PRO690\PRO690Midterm-2\PRO690\bin\Debug\net8.0\ProjectMVCExample.Tests\obj\Debug\net8.0\ProjectMVCExample.Tests.sourcelink.json
