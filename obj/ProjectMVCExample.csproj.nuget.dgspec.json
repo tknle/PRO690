@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-2\\PRO690\\ProjectMVCExample.csproj": {}
+    "D:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-2\\PRO690\\ProjectMVCExample.csproj": {}
   },
   "projects": {
-    "d:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-2\\PRO690\\ProjectMVCExample.csproj": {
+    "D:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-2\\PRO690\\ProjectMVCExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-2\\PRO690\\ProjectMVCExample.csproj",
+        "projectUniqueName": "D:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-2\\PRO690\\ProjectMVCExample.csproj",
         "projectName": "ProjectMVCExample",
-        "projectPath": "d:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-2\\PRO690\\ProjectMVCExample.csproj",
+        "projectPath": "D:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-2\\PRO690\\ProjectMVCExample.csproj",
         "packagesPath": "C:\\Users\\itsmi\\.nuget\\packages\\",
-        "outputPath": "d:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-2\\PRO690\\obj\\",
+        "outputPath": "D:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-2\\PRO690\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
