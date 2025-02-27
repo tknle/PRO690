@@ -4,8 +4,8 @@ on: [push]
 
 env:
   AZURE_WEBAPP_NAME: ProjectMVCExample    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: '.'          # set this to the path to your web app project, defaults to the repository root
-  DOTNET_VERSION: '8.0.x'                 # set this to the dot net version to use
+  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
+  DOTNET_VERSION: '8.0.x'           # set this to the dot net version to use
 
 jobs:
   build:
@@ -19,32 +19,21 @@ jobs:
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: ${{ env.DOTNET_VERSION }}
-
-      # Clean the project
-      - name: Clean project
-        run: dotnet clean
+          dotnet-version: ${{ env.DOTNET_VERSION }} 
       
       # Restore dependencies
-      - name: Restore dependencies
+      - name: dotnet restore
         run: dotnet restore
       
-      # Build the solution
-      - name: Build the solution
+      # Build the project
+      - name: dotnet build
         run: dotnet build --configuration Release
-
-      # Run unit tests
-      - name: Run unit tests
-        run: dotnet test --configuration Release --logger "trx;LogFileName=TestResults.trx"
-
-      # Publish test results
-      - name: Publish test results
-        uses: actions/upload-artifact@v4
-        with:
-          name: TestResults
-          path: '**/TestResults/*.trx'
-
-      # Publish the application
+      
+      # Run tests
+      - name: dotnet test
+        run: dotnet test ProjectMVCExample.Tests/ProjectMVCExample.Tests.csproj
+      
+      # Publish the project
       - name: dotnet publish
         run: dotnet publish -c Release --property:PublishDir='${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp'
           
@@ -53,4 +42,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with: 
           app-name: ${{ env.ProjectMVCExample }} # Replace with your app name
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }} # Define secret variable in repository settings as per action documentation
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE  }} # Define secret variable in repository settings as per action documentation
+          package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp'
