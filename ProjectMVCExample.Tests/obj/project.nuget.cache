@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pv6SByum7mI=",
+  "dgSpecHash": "YZbb7A7riT4=",
   "success": true,
-  "projectFilePath": "D:\\Seneca Winter 2025\\PRO690\\PRO690Midterm-3\\PRO690\\ProjectMVCExample.Tests\\ProjectMVCExample.Tests.csproj",
+  "projectFilePath": "D:\\PRO690\\ProjectMVCExample.Tests\\ProjectMVCExample.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\itsmi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\itsmi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
